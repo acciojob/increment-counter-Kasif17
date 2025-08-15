@@ -5,6 +5,7 @@ function Updatecounter() {
 	counterElemnet.textContent = count;
 }
 function Increment() {
+	alert(count)
 	count++;
 	Updatecounter()
 }
